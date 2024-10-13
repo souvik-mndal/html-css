@@ -16,11 +16,11 @@ html , body{
 }
 #navbar{
     width: 100vw;
-    height: 8vh;
+    height: 7vh;
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 0% 2.2%;
+    padding: 2.4% 2.2%;
     gap: 3.8vmin;
     /* background-color: rebeccapurple; */
 }
@@ -40,10 +40,10 @@ html , body{
 #center{
     width: 100vw;
     /* background-color: red; */
-    padding: 2% 5%;
+    padding: 0% 5%;
 }
 #center h1{
-    font-size: 4em;
+    font-size: 3.6em;
     font-weight: 100;
     line-height: 1.1em;
 }
@@ -52,25 +52,25 @@ html , body{
     /* background-color: blue; */
     display: flex;
     justify-content: space-between;
-    padding: .5% 5%;
+    padding: 2.4% 5%;
 }
 #lower-center #left p{
-    font-size: 1.2em;
+    font-size: 1em;
     color: rgba(0, 0, 0, 0.601);
     font-weight: 600;
-    line-height: 1.40em;
+    line-height: 1.60em;
 }
 
 #lower-center #right{
-    width: 24%;
+    width: 22%;
     /* background-color: yellow; */
-    padding-top: 1.7%;
+    padding-top: 1.2%;
 } 
 
 #lower-center .ele{
-    margin-bottom: 1.5%;
+    margin-bottom: 1.1%;
     /* background-color: red; */
-    padding: 4% 1%;
+    padding: 2.7% 1%;
     border-top: 2px solid black;
     display: flex;
     align-items: center;
@@ -78,13 +78,14 @@ html , body{
 }
 .ele a{
     color: rgba(0, 0, 0, 0.601);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 .ele i{
     opacity: 0;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 600;
+    color: rgba(0, 0, 0, 0.601);
 }
 .ele:hover i{
     opacity: 1;
@@ -94,6 +95,9 @@ html , body{
 }
 #image{
     width: 100vw;
-    height: 37vh;
+    height: 35.6vh;
     background-color: pink;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: 10% 50%;
 }
