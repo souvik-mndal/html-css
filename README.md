@@ -8,4 +8,4 @@
   1.Fashion Look-Website Concept
 </div>
 
-![My Image](screenshots/Screenshot%20(1).png)
+![My Image](/screenshots/Screenshot%20(1).png)
