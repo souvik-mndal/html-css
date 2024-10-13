@@ -40,7 +40,7 @@ html , body{
 #center{
     width: 100vw;
     /* background-color: red; */
-    padding: 2.2% 5%;
+    padding: 2% 5%;
 }
 #center h1{
     font-size: 4em;
@@ -52,13 +52,45 @@ html , body{
     /* background-color: blue; */
     display: flex;
     justify-content: space-between;
-    padding: 1% 5%;
+    padding: .5% 5%;
 }
 #lower-center #left p{
     font-size: 1.2em;
     color: rgba(0, 0, 0, 0.601);
     font-weight: 600;
     line-height: 1.40em;
+}
+
+#lower-center #right{
+    width: 24%;
+    /* background-color: yellow; */
+    padding-top: 1.7%;
+} 
+
+#lower-center .ele{
+    margin-bottom: 1.5%;
+    /* background-color: red; */
+    padding: 4% 1%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ele a{
+    color: rgba(0, 0, 0, 0.601);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.ele i{
+    opacity: 0;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.ele:hover i{
+    opacity: 1;
+}
+.ele:hover a{
+    text-decoration: underline;
 }
 #image{
     width: 100vw;
