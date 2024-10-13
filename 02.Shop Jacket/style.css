@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 html , body{
     height: 100%;
@@ -26,16 +27,41 @@ html , body{
 #navbar .nav-info{
     font-weight: 550;
     color: rgba(0, 0, 0, 0.701);
-    font-size: 2.1vmin;
+    font-size: 1.8vmin;
 }
 #navbar h4:last-child{
     background-color: black;
     color: white;
-    width: 3vw;
-    height: 3vw;
-    font-size: 2.8vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: .8vmax;
+    font-size: 1.4vmax;
+    font-weight: 500;
     border-radius: 50%;
+}
+#center{
+    width: 100vw;
+    /* background-color: red; */
+    padding: 2.2% 5%;
+}
+#center h1{
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 1.1em;
+}
+#lower-center{
+    width: 100vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+#lower-center #left p{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.601);
+    font-weight: 600;
+    line-height: 1.40em;
+}
+#image{
+    width: 100vw;
+    height: 37vh;
+    background-color: pink;
 }
