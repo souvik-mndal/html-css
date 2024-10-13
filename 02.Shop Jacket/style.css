@@ -95,7 +95,7 @@ html , body{
 }
 #image{
     width: 100vw;
-    height: 35.6vh;
+    height: 42.2vh;
     background-color: pink;
     background-image: url(image.jpg);
     background-size: cover;
