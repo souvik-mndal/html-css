@@ -95,9 +95,9 @@ html , body{
 }
 #image{
     width: 100vw;
-    height: 42.2vh;
+    height: 35.6vh;
     background-color: pink;
     background-image: url(image.jpg);
     background-size: cover;
-    background-position: 10% 50%;
+    background-position: 0% 48%;
 }
