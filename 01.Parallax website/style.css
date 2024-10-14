@@ -43,5 +43,35 @@ html , body{
 }
 .section .foreground{
     transform: translateZ(-20px) scale(3);
-    
 } 
+.img-head{
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.img-cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 1rem 1rem;
+    transform: translate(-50% , -50%);
+    font-size: 4rem;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.781);
+    font-weight: 550;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#sec2 .img-head{
+    background-image: url(/images/sport-1.jpg);
+}
+#sec3 .img-head{
+    background-image: url(/images/sport-2.jpg);
+}
+#sec4 .img-head{
+    background-image: url(/images/sport-3.jpg);
+}
