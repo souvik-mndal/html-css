@@ -75,3 +75,7 @@ html , body{
 #sec4 .img-head{
     background-image: url(/images/sport-3.jpg);
 }
+section{
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+}
