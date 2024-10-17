@@ -46,3 +46,9 @@ html , body{
     
     z-index: -1;
 }
+a{
+    text-decoration: none;
+}
+#button:hover a{
+    color: white;
+}
